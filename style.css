@@ -1,0 +1,821 @@
+/*-------body---------*/
+body {
+    background-color: #f8f8f8;
+    width: 1440px;
+  }
+  
+  /*-------Navigation Style---------*/
+
+    header {
+    width: 1440px;
+    height: 56px;
+    margin: 0 0 0px;
+    padding: 12px 120px;
+  }
+  .Amber-DiPietro {
+    width: 143px;
+    height: 32px;
+    margin: 0 890px 0 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+    .Home {
+    width: 52px;
+    height: 28px;
+    flex-grow: 0;
+      margin: 0 50px 0 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+  .Contact {
+    width: 67px;
+    height: 28px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+  }
+    /*-------Hero Space---------*/
+    .intro {
+    width: 486px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 40px 20px 40px 120px;
+    padding: 0;
+  }
+  .content {
+    width: 486px;
+    height: 369px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+  }
+     .UIUX-Designer {
+    height: 27px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #070055;
+  }
+  .headerImage {
+    width: 766px;
+    height: 546.9px;
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    margin: 54px 0 89.1px 68px;
+    object-fit: contain;
+  }
+    .Title {
+    width: 486px;
+    height: 140px;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+  
+  .Title .text-style-1 {
+    color: #ffa800;
+  }
+ 
+    .introParagraph {
+    width: 486px;
+    height: 108px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #515151;
+  }
+  /*-------Buttons---------*/
+  .buttons {
+    width: 243px;
+    height: 43px;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    
+  }
+  .button-primary {
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: #070055;
+  }
+  
+  .button-secondary {
+    width: 117px;
+    height: 28px;
+    text-align: center;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: solid 2px #070055;
+  }
+    .linkedIn {
+    width: 46px;
+    height: 30px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 550;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #070055;
+  }
+  .buttonP {
+    width: 66px;
+    height: 27px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+  }
+  
+ 
+  /*-------Project---------*/
+    .projectText {
+    width: 181px;
+    height: 72px;
+    position: absolute;
+    top: 746px;
+    left: 630px;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+    }
+  .projects {
+    width: 992px;
+    height: 1892px;
+    margin: 89.1px 226px 150px 222px;
+  }
+  /*--------project1-----------*/
+  .project-nfo1 {
+    display: inline-block;
+    width: 450px;
+    height: 240px;
+    position: absolute;
+    top: 900px;
+    left: 175px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 133px 38.9px 132px 50.4px;
+    background-color: #fff;
+  }
+  .mydiyText {
+    width: 406.7px;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0;
+  }
+  .MYDIY {
+    height: 60px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+  .mydiyblocktext {
+    height: 108px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  button {
+    width: 150px;
+    height: 43px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 8px 24px;
+    background-color: #fff;
+    border-radius: 24px;
+    border: solid 1px #070055;
+  }
+  .diyButton {
+    width: 102px;
+    height: 27px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 550;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #070055;
+  }
+  .yellowRectangle {
+    display: inline-block;
+    width: 450px;
+    height: 240px;
+    position: absolute;
+    top: 0px;
+    left: 538px;
+    border-radius: 0px 20px 20px 0px;
+    padding: 133px 38.9px 132px 50.4px;
+    background-color: rgba(255, 199, 0, 0.38);
+  }
+  /*------------project2-----------*/
+  .project-nfo2 {
+    width: 460px;
+    height: 240px;
+    position: absolute;
+    top:550px;
+    left: 535px;
+    border-radius: 0px 20px 20px 0px;
+    padding: 119.5px 38.9px 118.5px 50.4px;
+    background-color: #fff;
+  }
+  .project2paragraph {
+    height: 135px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  .trButton {
+    width: 102px;
+    height: 27px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 550;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #070055;
+  }
+  .blueRectangle {
+    width: 505px;
+    height: 479px;
+    position: absolute;
+    top: 00;
+    left: -535px;
+    padding: 0 17px 0 16px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(7, 0, 85, 0.27);
+  }
+  .trimage1 {
+    width: 378px;
+    height: 442px;
+    position: absolute;
+    margin: 38px 0px 0px 15px;
+  }
+
+  .trimage2 {
+    margin: 0 0 0 110px;
+  }
+/*---------project3----------*/
+  .project-nfo3 {
+    width: 475px;
+    height: 240px;
+    position: absolute;
+    top: 525px;
+    left: -535px;
+    border-radius: 20px 0px 0px 20px;
+    padding: 119.5px 8.9px 118.5px 50.4px;
+    background-color: #fff;
+  }
+  .doeblocktext {
+    height: 135px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  .doeButton {
+    width: 102px;
+    height: 27px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 550;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #070055;
+  }
+  
+  .orangeRectangle {
+    width: 520px;
+    height: 479px;
+    position: absolute;
+    top: 00;
+    left: 533px;
+    padding: 0 17px 0 16px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgba(185, 66, 18, 0.54);
+  }
+  .doeimage1 {
+    width: 368px;
+    height: 386px;
+    flex-grow: 0;
+    position:absolute;
+    margin: 93px 10px 10px 10px;
+  }
+
+  .doeimage2 {
+    width: 368px;
+    height: 374px;
+    margin: 0 0px 0 140px;
+   
+  }
+/*-------------expertise section-------*/
+h2 {
+  width: 350px;
+  height: 72px;
+  position: absolute;
+  left: 530px;
+  top: 2500px;
+  flex-grow: 0;
+  font-family: PlayfairDisplay;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #25282b;
+  }
+/*------------box1------------*/
+.box1 {
+  width: 377px;
+  height: 360px;
+  float: left;
+  flex-grow: 0;
+margin: 0px 27px 150px 100px;
+  border-radius: 20px;
+  background-color: #e1e0e0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.grants
+{
+  width: 148px;
+  height: 360px;
+  flex-grow: 0;
+  margin: 0px 0px 50px 227px;
+}
+.grants2 {
+  width: 214px;
+  height: 342px;
+  flex-grow: 0;
+  margin: -1000px 0px 70px 0px;
+}
+/*-----------box2-------------*/
+.box2 {
+  width: 377px;
+  height: 360px;
+  float: left;
+  flex-grow: 0;
+  margin: 0px 27px 150px 0px;
+  border-radius: 20px;
+  background-color: #3c3838;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.food1 {
+  width: 153px;
+  height: 309px;
+  flex-grow: 0;
+  margin: 25px 18px 0 25px;
+  border-radius: 10px;
+}
+.food2 {
+  width: 153px;
+  height: 309px;
+  flex-grow: 0;
+  margin: 0 0 0 0px;
+  border-radius: 10px;
+}
+/*------------box3------------*/
+.box3 {
+    width: 377px;
+    height: 360px;
+    float: left;
+    flex-grow: 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to left, #d9d9d9 100%, rgba(255, 255, 255, 0.54) 0%);
+
+}
+.healthy1 {
+  position: relative;
+  width: 284px;
+  height: 284px;
+  flex-grow: 0;
+  margin: 30px 30px 0px 30px;
+}
+.healthy2  {
+  width: 275px;
+  height: 275px;
+  flex-grow: 0;
+  margin: -400px 50px 0px 70px;
+}
+.expertise1 {
+  width: 285.3px;
+  height: 88px;
+  margin: 0px 0px 0px 0px;
+  font-family: Nunito;
+  font-size: 14.6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1f1f;
+}
+.h3expertise {
+  width: 149px;
+  height: 29px;
+  position: absolute;
+  margin: -35px 0px 20px 100px;
+  font-family: Nunito;
+  font-size: 19.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1f1f;;
+}
+.expertise1p {
+  width: 260px;
+  height: 100px;
+  font-family: nunito;
+  margin: 15px 0px 0 -50px;
+  font-size: 14.6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.h3expertise2 {
+  width: 250px;
+  height: 29px;
+  
+  margin: 59px  0px -50px 60px;
+  font-family: Nunito;
+  font-size: 19.5px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1f1f;;
+}
+.expertise2p {
+  width: 260px;
+  height: 100px;
+  font-family: nunito;
+  margin: 15px 0px 0 0px;
+  font-size: 14.6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f1f1f;
+}
+/*------------social media design----------*/
+.socialblue {
+  width: 1440px;
+  height: 500px;
+  margin: 850px 0 100px;
+  padding: 51px 169px 57px 171px;
+  background-color: rgba(0, 75, 150, 0.15);
+}
+
+.socialHeader {
+  width: 500px;
+  height: 200px;
+  margin: 900px 0 0 0;
+  padding: 20px 0 0 0;
+}
+
+
+  /*----------Contact Section----------*/
+  .contactSection {
+    width: 486px;
+    height: 369px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 0;
+  }
+  .footerHeader {
+    width: 425px;
+    height: 72px;
+    position: absolute;
+    left: 500px;
+    flex-grow: 0;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #25282b;
+  }
+  .connectP {
+    width: 480px;
+    height: 54px;
+    float: left;
+    flex-grow: 0;
+    margin: 15px 65px 31.2px 210.5px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  .contactMe {
+    float: left;
+    width: 216px;
+    height: 33px;
+    flex-grow: 0;
+    margin: 138px 81px 17.5px 211px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.81);
+  }
+  
+  .Contact-Information {
+    width: 216px;
+    height: 33px;
+    flex-grow: 0;
+    margin: 138px 81px 17.5px 211px;
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.81);
+  }
+  form
+  {
+    display: inline-block;
+    width: 475px;
+    margin: -200px 0px 0px 711px;
+  
+  }
+  input {
+    width: 400px;
+    height: 40px;
+    flex-grow: 0;
+    border-radius: 8px;
+    border: solid 1px #c8cbd2;
+    background-color: #fff;
+  }
+  label {
+    width: 80px;
+    height: 27px;
+    margin: 0 310px 3px 0;
+    padding: 0 10px 5px 0;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #25282b;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    font-family: Nunito;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #fdc435;
+    width: 125px;
+    font-family: Nunito;
+    font-weight: 600;
+    color: rgb(37, 36, 36);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    bottom: 140px;
+  }
+  
+    footer {
+      position: absolute;
+width: 100%;
+height: 60px;
+    }
+ 
+  .Line-1 {
+    width: 1439px;
+    height: 1px;
+    flex-grow: 0;
+    margin: 400px 25px 25px 25px;
+    transform: rotate(-360deg);
+    background-color: #999;
+  }
+  .Ambers-Portfolio-2022 {
+    width: 350px;
+    height: 18px;
+    margin: 565px;
+    padding: 15px;
+    flex-grow: 0;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f1f1f;
+  }
+  .email {
+    width: 721px;
+  height: 27px;
+  margin: 32.5px 452px 95px 266px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1f1f1f;
+  }
+  .location {
+    width: 353.6px;
+    height: 27px;
+    margin: 32.5px 452px 95px 266px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1f1f1f;
+  }
+  
