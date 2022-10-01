@@ -6,7 +6,7 @@ body {
   /*-------Navigation Style---------*/
 
     header {
-    width: 100%;
+    width: 90%;
     height: 56px;
     padding: 12px 120px;
   }
@@ -15,7 +15,7 @@ body {
     width: 143px;
     height: 32px;
     display: inline-block;
-    padding: 0 890px 0 0;
+    padding: 0 810px 0 0;
     font-family: Nunito;
     font-size: 18px;
     font-weight: 500;
@@ -206,7 +206,15 @@ body {
   
  
   /*-------Project---------*/
-    .projectText {
+    .projectSection {
+      width: 992px;
+      height: 2150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  .projectText {
     width: 181px;
     height: 72px;
     position: absolute;
@@ -223,11 +231,6 @@ body {
     text-align: center;
     color: #25282b;
     }
-  .projects {
-    width: 992px;
-    height: 1892px;
-    padding: 89px 26px 150px 22px;
-  }
   /*--------project1-----------*/
   .project-nfo1 {
     display: inline-block;
@@ -240,6 +243,7 @@ body {
     padding: 133px 38.9px 132px 50.4px;
     background-color: #fff;
   }
+  
   .mydiyText {
     width: 406.7px;
     height: 259px;
@@ -444,8 +448,8 @@ body {
   width: 400px;
   height: 72px;
   position: absolute;
-  left: 510px;
-  top: 2520px;
+  left: 500px;
+  top: 2500px;
   flex-grow: 0;
   font-family: PlayfairDisplay;
   font-size: 38px;
