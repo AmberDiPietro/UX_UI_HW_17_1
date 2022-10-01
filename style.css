@@ -1,21 +1,21 @@
 /*-------body---------*/
 body {
     background-color: #f8f8f8;
-    width: 1440px;
-  }
-  
+    width: 100%;
+}
   /*-------Navigation Style---------*/
 
     header {
-    width: 1440px;
+    width: 100%;
     height: 56px;
-    margin: 0 0 0px;
     padding: 12px 120px;
   }
+  
   .Amber-DiPietro {
     width: 143px;
     height: 32px;
-    margin: 0 890px 0 0;
+    display: inline-block;
+    padding: 0 890px 0 0;
     font-family: Nunito;
     font-size: 18px;
     font-weight: 500;
@@ -64,7 +64,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 12px;
-    margin: 40px 20px 40px 120px;
+    margin: 40px 0px 0px 120px;
     padding: 0;
   }
   .content {
@@ -98,7 +98,7 @@ body {
     position: absolute;
     top: 110px;
     left: 600px;
-    margin: 54px 0 89.1px 68px;
+    margin: 10px 0  0px 50px;
     object-fit: contain;
   }
     .Title {
@@ -226,7 +226,7 @@ body {
   .projects {
     width: 992px;
     height: 1892px;
-    margin: 89.1px 226px 150px 222px;
+    padding: 89px 26px 150px 22px;
   }
   /*--------project1-----------*/
   .project-nfo1 {
@@ -369,11 +369,11 @@ body {
     width: 378px;
     height: 442px;
     position: absolute;
-    margin: 38px 0px 0px 15px;
+    padding: 38px 0px 0px 15px;
   }
 
   .trimage2 {
-    margin: 0 0 0 110px;
+    padding: 0 0 0 110px;
   }
 /*---------project3----------*/
   .project-nfo3 {
@@ -440,15 +440,15 @@ body {
    
   }
 /*-------------expertise section-------*/
-h2 {
-  width: 350px;
+.expertiseHeader {
+  width: 400px;
   height: 72px;
   position: absolute;
-  left: 530px;
-  top: 2500px;
+  left: 510px;
+  top: 2520px;
   flex-grow: 0;
   font-family: PlayfairDisplay;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -605,24 +605,96 @@ margin: 0px 27px 150px 100px;
 }
 /*------------social media design----------*/
 .socialblue {
-  width: 1440px;
+  width: 100%;
   height: 500px;
-  margin: 850px 0 100px;
-  padding: 51px 169px 57px 171px;
+  margin: 650px 0 100px;
+  padding: 25px 25px 25px 25px;
   background-color: rgba(0, 75, 150, 0.15);
+  }
+  
+  .socialHeader {
+  width: 500px;
+  height: 20px;
+  padding: 0px 0px 80px 500px;
+  font-family: PlayfairDisplay;
+  font-size: 38px;
+  color: #1f1f1f;
+  }
+
+.containerCarousel {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  width: 300px;
+  margin: -30px 50px 100px 540px;
+  perspective: 2000px;
 }
 
-.socialHeader {
-  width: 500px;
-  height: 200px;
-  margin: 900px 0px 0px -100px;
-  padding: 20px 0 0 0;
+.carousel {
+  position: absolute;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face { 
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  display: flex;
+}
+
+
+
+.carousel__face:nth-child(1) {
+  background-image: url("Throat.png");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+  background-image: url("Dream\ Catcher.png");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("Protection.png");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("Understand.png");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("Muladhara.png");
+ transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("Wishes\ &.png");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("Love\,\ Sex\ &\ Magick.png");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("Banish\ &\ Protect.png");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("Finding.png");
+  transform: rotateY(320deg) translateZ(430px); }
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
 }
 
 
   /*----------Contact Section----------*/
   .contactSection {
-    width: 486px;
+    width: 100%;
     height: 369px;
     flex-grow: 0;
     display: flex;
@@ -698,9 +770,9 @@ margin: 0px 27px 150px 100px;
   }
   form
   {
-    display: inline-block;
+    float: left;
     width: 400px;
-    margin: -400px 0px 00px 750px;
+    margin: -400px 0px 0px 750px;
   
   }
   input {
@@ -770,18 +842,17 @@ height: 60px;
     }
  
   .Line-1 {
-    width: 1439px;
+    width: 100%;
     height: 1px;
     flex-grow: 0;
-    margin: 400px 25px 25px 25px;
-    transform: rotate(-360deg);
+    margin: 420px 15px 15px 20px;
     background-color: #999;
   }
   .Ambers-Portfolio-2022 {
     width: 350px;
-    height: 18px;
-    margin: 565px;
-    padding: 15px;
+    height: 15px;
+    position: absolute;
+    padding: 0 0px 0px 475px;
     flex-grow: 0;
     font-family: Nunito;
     font-size: 12px;
@@ -794,7 +865,7 @@ height: 60px;
     color: #1f1f1f;
   }
   .email {
-    width: 721px;
+    width: 121px;
   height: 50px;
   padding-bottom: 10px;
   margin: 32.5px 452px 95px 266px;
@@ -809,10 +880,10 @@ height: 60px;
   color: #1f1f1f;
   }
   .location {
-    width: 353.6px;
+    width: 180px;
     height: 27px;
     position: absolute;
-    margin: 30px 452px 85px 266px;
+    padding: 30px 452px 85px 266px;
     font-family: Nunito;
     font-size: 20px;
     font-weight: normal;
@@ -824,10 +895,10 @@ height: 60px;
     color: #1f1f1f;
   }
   .phone {
-    width: 353.6px;
+    width: 153px;
     height: 27px;
     position: absolute;
-    margin: 90px 452px 85px 266px;
+    padding: 90px 452px 85px 266px;
     font-family: Nunito;
     font-size: 20px;
     font-weight: normal;
@@ -847,19 +918,19 @@ height: 60px;
   height: 60px;
   flex-grow: 0;
     position: absolute;
-    margin: 370px 0px 60px 580px;
+    padding: 385px 0px 60px 580px;
   }
   .linkedinIcon {
     width: 50px;
   height: 60px;
   flex-grow: 0;
     position: absolute;
-    margin: 370px 0px 60px 630px;
+    padding: 385px 0px 60px 630px;
   }
   .instagramIcon {
     width: 50px;
   height: 60px;
   flex-grow: 0;
     position: absolute;
-    margin: 370px 0px 60px 680px;
+    padding: 385px 0px 60px 680px;
   }

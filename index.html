@@ -64,12 +64,13 @@
           <button><span class="diyButton">
               View Project
             </span></button>
-          <div class="yellowRectangle"></div>
+          <div class="yellowRectangle">
+          </div>
           <div class="project-nfo2">
             <div class="mydiyText"><span class="MYDIY">
                 Tomorrow's Rainbow
               </span><span class="project2paragraph">
-                Tomorrow’s Rainbow is a non-profit organization that had an outdated web design with navigation and
+                Tomorrow's Rainbow is a non-profit organization that had an outdated web design with navigation and
                 legibility flaws. The site was redesigned to highlight unique services and donation options to increase
                 web traffic and conversion rates.
               </span><button><span class="trButton">
@@ -96,8 +97,8 @@
           </div>
 
   </section>
- <section>
-  <div><h2>My Expertise</h2></div>
+ <section class="expertise">
+  <div class="expertiseHeader"><h2>My Expertise</h2></div>
   <div>
     <div class="box1"><img src="Grants Page (2) 1.png" srcset="Grants Page (2) 1.png 2x,
       Grants Page (2) 1.png 3x" class="grants"><img src="Group 11 1.png" srcset="Group 11 1.png 2x,
@@ -119,60 +120,67 @@
     
  </section>
  <section>
+  <div>
   <div class="socialblue"><h2 class=socialHeader>Social Media Designs</h2>
+    <div class="containerCarousel">
+      <div class="carousel">
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+        <div class="carousel__face"></div>
+      </div>
     </div>
-
+  </div>
+  
+  
  </section>
   <section>
     <div class="contactSection">
-    <div>
-      <span class="footerHeader">
-        Let’s work together
-      </span>
+    <div><span class="footerHeader">Let's work together</span>
     </div>
-    <div>
-      <span class="contactMe">Contact Information</span>
-      <div><span class="connectP">
-          I look forward to the opportunity to connect and discuss your project needs and company goals!
-        </span>
+    <div><span class="contactMe">Contact Information</span>
+      <div><span class="connectP">I look forward to the opportunity to connect and discuss your project needs and company goals.</span>
         <div><span class="email">AmberDiPietro@live.com</span></div>
         <div><span class="location">Deerfield Beach, FL</span></div>
         <div><span class="phone">(561) 221-8499</span></div>
-        <div class="contactIcons"><img src="Frame 2.png" srcset="Frame 2.png 2x,
-            Frame 2.png"></div>
-            
-            </div>
-    <form>
-      <div class="contactText"></div>
-      <div class="formBox">
-        <div class="container">
-          <form action="action_page.php">
+        <div class="contactIcons"><img src="Frame 2.png" srcset="Frame 2.png 2x, Frame 2.png"></div> 
+        <form>
+          <div class="contactText"></div>
+          <div class="formBox">
+            <div class="container">
+              <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Send me a message.." style="height:200px"></textarea>
+                <input type="Send" value="Send">
+              </div>
+        </form>
+      </div>
+    
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="subject">Message</label>
-            <textarea id="subject" name="subject" placeholder="Send me a message.." style="height:200px"></textarea>
-
-            <input type="Send" value="Send">
-        </div>
-    </form>
   </div>
   </section>
   <section>
     <footer>
+      <div>
         <div class="envelope"><img src="bi_envelope-fill.png" srcset="bi_envelope-fill.png 2x,
             bi_envelope-fill.png"></div>
             <div class="linkedinIcon"><img src="bi_linkedin.png" srcset="bi_linkedin.png 2x,
                 bi_linkedin.png"></div>
                 <div class="instagramIcon"><img src="ph_instagram-logo-fill.png" srcset="ph_instagram-logo-fill.png 2x,
                     ph_instagram-logo-fill.png"></div>
+                  </div>
       <div class="Line-1"></div>
       <span class="Ambers-Portfolio-2022">
-        Amber’s Portfolio ©2022
+        Amber's Portfolio ©2022
       </span>
     </footer>
     </div>
@@ -181,6 +189,5 @@
     </div>
     </div>
     </div>
-    </form>
   </section>
 </body>
