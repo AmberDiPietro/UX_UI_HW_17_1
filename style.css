@@ -6,16 +6,22 @@ body {
   /*-------Navigation Style---------*/
 
     header {
-    width: 90%;
+        display: flex;
+        justify-content: center;
+    width: 100%;
     height: 56px;
-    padding: 12px 120px;
+    padding: 12px 0px;
   }
-  
+  nav {
+display: flex;
+        justify-content: center;
+        width:100%
+  }
   .Amber-DiPietro {
     width: 143px;
     height: 32px;
-    display: inline-block;
-    padding: 0 810px 0 0;
+    display: flex;
+    padding: 0 880px 0 0;
     font-family: Nunito;
     font-size: 18px;
     font-weight: 500;
@@ -29,7 +35,7 @@ body {
     .Home {
     width: 52px;
     height: 28px;
-    flex-grow: 0;
+    display: flex;
       margin: 0 50px 0 0;
     font-family: Nunito;
     font-size: 18px;
@@ -44,7 +50,7 @@ body {
   .Contact {
     width: 67px;
     height: 28px;
-    flex-grow: 0;
+    display: flex;
     font-family: Nunito;
     font-size: 18px;
     font-weight: 500;
@@ -56,16 +62,24 @@ body {
     color: #000;
   }
     /*-------Hero Space---------*/
+   .hero {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row-reverse;
+        padding-top:60px;
+   }
     .intro {
     width: 486px;
     height: 408px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     gap: 12px;
-    margin: 40px 0px 0px 120px;
-    padding: 0;
+    margin: 40px 0px 140px 115px;
+    padding-right: 50px;
   }
   .content {
     width: 486px;
@@ -95,10 +109,10 @@ body {
   .headerImage {
     width: 766px;
     height: 546.9px;
-    position: absolute;
+    display: flex;
+    float: right;
     top: 110px;
-    left: 600px;
-    margin: 10px 0  0px 50px;
+    margin: 10px 0px 0px 0px;
     object-fit: contain;
   }
     .Title {
@@ -123,7 +137,6 @@ body {
     .introParagraph {
     width: 486px;
     height: 108px;
-    flex-grow: 0;
     font-family: Nunito;
     font-size: 24px;
     font-weight: normal;
@@ -192,7 +205,6 @@ body {
   .buttonP {
     width: 66px;
     height: 27px;
-    flex-grow: 0;
     font-family: Nunito;
     font-size: 18px;
     font-weight: 500;
@@ -208,19 +220,19 @@ body {
   /*-------Project---------*/
     .projectSection {
       width: 992px;
-      height: 2150px;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
   
     }
   .projectText {
     width: 181px;
-    height: 72px;
-    position: absolute;
-    top: 746px;
-    left: 630px;
-    flex-grow: 0;
+    height: 120px;
+    display: flex;
+    padding-top: 30px;
     font-family: PlayfairDisplay;
     font-size: 48px;
     font-weight: bold;
@@ -232,16 +244,41 @@ body {
     color: #25282b;
     }
   /*--------project1-----------*/
+  .projectSection {
+    height: 1200px;
+    width: 100%;
+    display:flex;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+  }
   .project-nfo1 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     width: 450px;
     height: 240px;
-    position: absolute;
-    top: 900px;
-    left: 175px;
     border-radius: 20px 0px 0px 20px;
     padding: 133px 38.9px 132px 50.4px;
     background-color: #fff;
+  }
+  .yellowRectangle {
+    display: flex;
+    width: 450px;
+    height: 240px;
+    border-radius: 0px 20px 20px 0px;
+    padding: 133px 38.9px 132px 50.4px;
+    background-color: rgba(255, 199, 0, 0.38);
   }
   
   .mydiyText {
@@ -251,6 +288,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    align-content: space-between;
     gap: 24px;
     padding: 0;
   }
@@ -269,8 +307,7 @@ body {
     color: #25282b;
   }
   .mydiyblocktext {
-    height: 108px;
-    align-self: stretch;
+    height: 135px;
     flex-grow: 0;
     font-family: Nunito;
     font-size: 18px;
@@ -309,31 +346,30 @@ body {
     text-align: left;
     color: #070055;
   }
-  .yellowRectangle {
-    display: inline-block;
+ 
+  /*------------project2-----------*/
+  .project2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: space-between;
+    height: 500px;
+    width: 100%;
+    padding: 60px;
+  }
+  
+  .project-nfo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     width: 450px;
     height: 240px;
-    position: absolute;
-    top: 0px;
-    left: 538px;
     border-radius: 0px 20px 20px 0px;
     padding: 133px 38.9px 132px 50.4px;
-    background-color: rgba(255, 199, 0, 0.38);
-  }
-  /*------------project2-----------*/
-  .project-nfo2 {
-    width: 460px;
-    height: 240px;
-    position: absolute;
-    top:550px;
-    left: 535px;
-    border-radius: 0px 20px 20px 0px;
-    padding: 119.5px 38.9px 118.5px 50.4px;
     background-color: #fff;
   }
   .project2paragraph {
-    height: 135px;
-    align-self: stretch;
+    height: 160px;
     flex-grow: 0;
     font-family: Nunito;
     font-size: 18px;
@@ -360,38 +396,51 @@ body {
     color: #070055;
   }
   .blueRectangle {
-    width: 505px;
-    height: 479px;
-    position: absolute;
-    top: 00;
-    left: -535px;
-    padding: 0 17px 0 16px;
+    display: flex;
+    float: right;
+    width: 500px;
+    height: 505px;
     border-radius: 20px 0px 0px 20px;
+    padding: 0px 20px 0px 20px;
     background-color: rgba(7, 0, 85, 0.27);
-  }
-  .trimage1 {
-    width: 378px;
-    height: 442px;
-    position: absolute;
-    padding: 38px 0px 0px 15px;
-  }
+}
+.trimage1 {
+  width: 378px;
+  height: 442px;
+  position: absolute;
+  padding: 65px 0px 30px 0px;
+ 
+}
 
   .trimage2 {
-    padding: 0 0 0 110px;
+    width: 380px;
+  height: 342px;
+    padding: 0px 40px 40px 120px;
+    
   }
+ 
 /*---------project3----------*/
-  .project-nfo3 {
-    width: 475px;
+  .project3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  height: 500px;
+  width: 100%;
+  padding: 0px;
+  }
+.project-nfo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 450px;
     height: 240px;
-    position: absolute;
-    top: 525px;
-    left: -535px;
     border-radius: 20px 0px 0px 20px;
-    padding: 119.5px 8.9px 118.5px 50.4px;
+    padding: 133px 38.9px 132px 50.4px;
     background-color: #fff;
   }
   .doeblocktext {
-    height: 135px;
+    height: 155px;
     align-self: stretch;
     flex-grow: 0;
     font-family: Nunito;
@@ -420,139 +469,172 @@ body {
   }
   
   .orangeRectangle {
-    width: 520px;
-    height: 479px;
-    position: absolute;
-    top: 00;
-    left: 533px;
-    padding: 0 17px 0 16px;
+    display: flex;
+    width: 490px;
+    height: 505px;
     border-radius: 0px 20px 20px 0px;
+    padding: 0px 20px 0px 20px;
     background-color: rgba(185, 66, 18, 0.54);
   }
-  .doeimage1 {
-    width: 368px;
-    height: 386px;
-    flex-grow: 0;
-    position:absolute;
-    margin: 93px 10px 10px 10px;
-  }
 
-  .doeimage2 {
-    width: 368px;
-    height: 374px;
-    margin: 0 0px 0 140px;
-   
-  }
+.doeimage1 {
+  width: 368px;
+  height: 386px;
+  flex-grow: 0;
+  position:absolute;
+  margin: 119px 10px 10px 10px;
+}
+
+.doeimage2 {
+  width: 368px;
+  height: 374px;
+  margin: 0 0 0 140px;
+ 
+}
 /*-------------expertise section-------*/
-.expertiseHeader {
-  width: 400px;
-  height: 72px;
-  position: absolute;
-  left: 500px;
-  top: 2500px;
-  flex-grow: 0;
-  font-family: PlayfairDisplay;
-  font-size: 38px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #25282b;
-  }
+
+.expertise {
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 550px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+    .expertiseHeader {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-self: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-family: PlayfairDisplay;
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #25282b;
+      }
+.expertblock {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-evenly;
+    padding: 0 0 0 100px;
+    
+    
+}
+
+  
 /*------------box1------------*/
+
 .box1 {
-  width: 377px;
-  height: 360px;
-  float: left;
-  flex-grow: 0;
-margin: 0px 27px 150px 100px;
-  border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 50px 30px 0px;
+    height: 360px;
+    width: 370px;
+    padding: 0px;
+    border-radius: 20px;
   background-color: #e1e0e0;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
+
 .grants
 {
+    position: absolute;
   width: 148px;
   height: 360px;
   flex-grow: 0;
-  margin: 0px 0px 50px 227px;
+  margin: 0px 0px 0px 115px;
 }
 .grants2 {
   width: 214px;
   height: 342px;
   flex-grow: 0;
-  margin: -1000px 0px 70px 0px;
+  margin: 15px 162px 0px 0px;
 }
 /*-----------box2-------------*/
+
 .box2 {
-  width: 377px;
-  height: 360px;
-  float: left;
-  flex-grow: 0;
-  margin: 0px 27px 150px 0px;
-  border-radius: 20px;
-  background-color: #3c3838;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 50px 30px 0px;
+    height: 360px;
+    width: 370px;
+    padding: 0px;
+    border-radius: 20px;
+  background-color: #333333;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
+
 .food1 {
+    display: flex;
   width: 153px;
   height: 309px;
   flex-grow: 0;
-  margin: 25px 18px 0 25px;
   border-radius: 10px;
+  padding: 25px 15px 0px 0px;
 }
 .food2 {
   width: 153px;
   height: 309px;
   flex-grow: 0;
-  margin: 0 0 0 0px;
   border-radius: 10px;
+  padding: 25px 0px 0px 0px;
 }
+
 /*------------box3------------*/
+
 .box3 {
-    width: 377px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 0px 30px 0px;
     height: 360px;
-    float: left;
-    flex-grow: 0;
+    width: 370px;
+    padding: 0px;
     border-radius: 20px;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(to left, #d9d9d9 100%, rgba(255, 255, 255, 0.54) 0%);
+  background-color: #e1e0e0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 
 }
+
 .healthy1 {
-  position: relative;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  padding: 30px 25px 10px 0px;
   width: 284px;
   height: 284px;
-  flex-grow: 0;
-  margin: 30px 30px 0px 30px;
-}
+  
+} 
 .healthy2  {
   width: 275px;
   height: 275px;
+  padding: 60px 0px 0px 40px;
   flex-grow: 0;
-  margin: -400px 50px 0px 70px;
 }
-.expertise1 {
-  width: 285.3px;
-  height: 88px;
-  margin: 0px 0px 0px 0px;
-  font-family: Nunito;
-  font-size: 14.6px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #1f1f1f;
-}
+
 .h3expertise {
-  width: 149px;
+  width: 250px;
   height: 29px;
-  position: absolute;
-  margin: -35px 0px 20px 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 50px;
   font-family: Nunito;
   font-size: 19.5px;
   font-weight: 600;
@@ -564,10 +646,12 @@ margin: 0px 27px 150px 100px;
   color: #1f1f1f;;
 }
 .expertise1p {
-  width: 260px;
+  width: 250px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 50px;
   font-family: nunito;
-  margin: 15px 0px 0 -50px;
   font-size: 14.6px;
   font-weight: normal;
   font-stretch: normal;
@@ -581,8 +665,9 @@ margin: 0px 27px 150px 100px;
 .h3expertise2 {
   width: 250px;
   height: 29px;
-  
-  margin: 59px  0px -50px 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 0px 55px;
   font-family: Nunito;
   font-size: 19.5px;
   font-weight: 600;
@@ -596,8 +681,10 @@ margin: 0px 27px 150px 100px;
 .expertise2p {
   width: 260px;
   height: 100px;
+  display: flex;
+  justify-content: center;
   font-family: nunito;
-  margin: 15px 0px 0 0px;
+  margin: 0px 0px 0px 55px;
   font-size: 14.6px;
   font-weight: normal;
   font-stretch: normal;
@@ -611,15 +698,22 @@ margin: 0px 27px 150px 100px;
 .socialblue {
   width: 100%;
   height: 500px;
-  margin: 650px 0 100px;
-  padding: 25px 25px 25px 25px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin: 80px 0px 80px 0px;
   background-color: rgba(0, 75, 150, 0.15);
   }
   
   .socialHeader {
-  width: 500px;
-  height: 20px;
-  padding: 0px 0px 80px 500px;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   font-family: PlayfairDisplay;
   font-size: 38px;
   color: #1f1f1f;
@@ -629,8 +723,9 @@ margin: 0px 27px 150px 100px;
   display: flex;
   justify-content: flex-start;
   align-content: center;
-  width: 300px;
-  margin: -30px 50px 100px 540px;
+  align-self: center;
+  padding: 0px 80px 180px 0;
+  
   perspective: 2000px;
 }
 
@@ -703,17 +798,17 @@ margin: 0px 27px 150px 100px;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 32px;
-    padding: 0;
+    padding: 150px 0 250px 0;
   }
+ 
   .footerHeader {
     width: 425px;
-    height: 72px;
-    position: absolute;
-    left: 500px;
-    flex-grow: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
     font-family: PlayfairDisplay;
     font-size: 48px;
     font-weight: bold;
@@ -727,9 +822,10 @@ margin: 0px 27px 150px 100px;
   .connectP {
     width: 480px;
     height: 54px;
+    display: flex;
     float: left;
     flex-grow: 0;
-    margin: 15px 65px 31.2px 210.5px;
+    margin: 0px 0px 31px 210.5px;
     font-family: Nunito;
     font-size: 20px;
     font-weight: normal;
@@ -741,11 +837,12 @@ margin: 0px 27px 150px 100px;
     color: #1f1f1f;
   }
   .contactMe {
+    display: flex;
     float: left;
     width: 216px;
     height: 33px;
     flex-grow: 0;
-    margin: 138px 81px 17.5px 211px;
+    margin: 80px 81px 17.5px 211px;
     font-family: Nunito;
     font-size: 24px;
     font-weight: 500;
@@ -758,10 +855,11 @@ margin: 0px 27px 150px 100px;
   }
   
   .Contact-Information {
+    display: flex;
     width: 216px;
     height: 33px;
     flex-grow: 0;
-    margin: 138px 81px 17.5px 211px;
+    margin: 0px 0px 0px 0px;
     font-family: Nunito;
     font-size: 22px;
     font-weight: 500;
@@ -788,9 +886,9 @@ margin: 0px 27px 150px 100px;
     background-color: #fff;
   }
   label {
+    display: flex;
     width: 400px;
     height: 27px;
-    margin: 0 250px 3px 0;
     padding: 0 10px 5px 0;
     font-family: Nunito;
     font-size: 16px;
@@ -840,23 +938,30 @@ margin: 0px 27px 150px 100px;
   }
   
     footer {
-      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      align-content: center;
+      flex-direction: column;
 width: 100%;
-height: 60px;
+height: 100px;
     }
  
   .Line-1 {
     width: 100%;
     height: 1px;
-    flex-grow: 0;
-    margin: 420px 15px 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background-color: #999;
   }
   .Ambers-Portfolio-2022 {
     width: 350px;
     height: 15px;
-    position: absolute;
-    padding: 0 0px 0px 465px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 0px 0px;
     flex-grow: 0;
     font-family: Nunito;
     font-size: 12px;
@@ -917,24 +1022,29 @@ height: 60px;
     margin: -27px 0px 60px 210px;
   }
 
+  .social {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
   .envelope {
-    width: 50px;
-  height: 60px;
+    width: 30px;
+  height: 30px;
   flex-grow: 0;
-    position: absolute;
-    padding: 385px 0px 60px 580px;
+  display: flex;
+  justify-content: center;
   }
   .linkedinIcon {
-    width: 50px;
-  height: 60px;
+    width:30px;
+  height: 30px;
   flex-grow: 0;
-    position: absolute;
-    padding: 385px 0px 60px 630px;
+  display: flex;
+  justify-content: center;
   }
   .instagramIcon {
-    width: 50px;
-  height: 60px;
+    width: 30px;
+  height: 30px;
   flex-grow: 0;
-    position: absolute;
-    padding: 385px 0px 60px 680px;
+  display: flex;
+  justify-content: center;
   }
