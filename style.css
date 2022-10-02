@@ -281,20 +281,20 @@ display: flex;
     background-color: rgba(255, 199, 0, 0.38);
   }
   .diyimage1 {
-  width: 224px;
-  position: absolute;
-  height: 432px;
-  flex-grow: 0;
-  padding: 15px 18px 12px 45px;
-  }
-
-  .diyimage2 {
     width: 224px;
+    position: absolute;
     height: 432px;
     flex-grow: 0;
-    margin: 50px 0px 36px 40px;
-    padding: 13px 0px 12px 180px;
-  }
+    padding: 15px 18px 12px 45px;
+    }
+  
+    .diyimage2 {
+      width: 224px;
+      height: 432px;
+      flex-grow: 0;
+      margin: 50px 0px 36px 40px;
+      padding: 13px 0px 12px 180px;
+    }
   .mydiyText {
     width: 406.7px;
     height: 259px;
@@ -516,7 +516,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: space-evenly;
+    align-content: center;
     flex-wrap: wrap;
 }
     .expertiseHeader {
@@ -542,7 +542,7 @@ display: flex;
     justify-content: center;
     flex-direction: row;
     align-content: space-evenly;
-    padding: 0 0 0 100px;
+    padding: 0 0 0 0px;
     
     
 }
@@ -713,21 +713,21 @@ display: flex;
   width: 100%;
   height: 500px;
   display:flex;
-  flex-direction: row;
   justify-content: center;
   align-content: center;
+  flex-direction: column;
   padding: 20px;
   margin: 80px 0px 80px 0px;
   background-color: rgba(0, 75, 150, 0.15);
   }
   
   .socialHeader {
-  width: 400px;
-  height: 50px;
+  width: 100%;
+  height: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
+  align-self: center;
+  margin:-320px 0 0 0;
   font-family: PlayfairDisplay;
   font-size: 38px;
   color: #1f1f1f;
@@ -735,18 +735,13 @@ display: flex;
 
 .containerCarousel {
   display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  align-self: center;
-  padding: 0px 80px 180px 0;
-  
-  perspective: 2000px;
+  width: 320px;
+  margin: -200px auto 0 auto;
+  perspective: 2200px;
 }
 
 .carousel {
   position: absolute;
-  justify-content: flex-start;
-  align-content: center;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d; 
@@ -754,8 +749,8 @@ display: flex;
 }
 .carousel__face { 
   position: absolute;
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   top: 20px;
   left: 10px;
   right: 10px;
@@ -808,19 +803,27 @@ display: flex;
   /*----------Contact Section----------*/
   .contactSection {
     width: 100%;
-    height: 369px;
+    height: 300px;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 32px;
-    padding: 150px 0 250px 0;
+    padding: 50px 0 250px 0;
   }
- 
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 50px;
+    padding-right: 250px; 
+    
+  }
   .footerHeader {
-    width: 425px;
-    height: 50px;
+    align-self: center;
+    width: 100%;
+    height: 200px;
     display: flex;
     justify-content: center;
     font-family: PlayfairDisplay;
@@ -835,11 +838,9 @@ display: flex;
   }
   .connectP {
     width: 480px;
-    height: 54px;
+    height: 80px;
     display: flex;
-    float: left;
     flex-grow: 0;
-    margin: 0px 0px 31px 210.5px;
     font-family: Nunito;
     font-size: 20px;
     font-weight: normal;
@@ -852,11 +853,9 @@ display: flex;
   }
   .contactMe {
     display: flex;
-    float: left;
     width: 216px;
-    height: 33px;
+    height: 55px;
     flex-grow: 0;
-    margin: 80px 81px 17.5px 211px;
     font-family: Nunito;
     font-size: 24px;
     font-weight: 500;
@@ -870,6 +869,7 @@ display: flex;
   
   .Contact-Information {
     display: flex;
+    justify-content: center;
     width: 216px;
     height: 33px;
     flex-grow: 0;
@@ -888,68 +888,67 @@ display: flex;
   {
     float: left;
     width: 400px;
-    margin: -400px 0px 0px 750px;
+    margin: -400px 0px 0px 650px;
+  }
+    input {
+      width: 600px;
+      height: 40px;
+      flex-grow: 0;
+      border-radius: 8px;
+      border: solid 1px #c8cbd2;
+      background-color: #fff;
+    }
+    label {
+      display: flex;
+      width: 400px;
+      height: 27px;
+      padding: 0 10px 5px 0;
+      font-family: Nunito;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #25282b;
+    }
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      font-family: Nunito;
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=send] {
+      background-color: #fdc435;
+      width: 50px;
+      height: 26px;
+      font-family: Nunito;
+      text-align: center;
+      font-weight: 600;
+      color: rgb(37, 36, 36);
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      bottom: 140px;
+    }
   
-  }
-  input {
-    width: 600px;
-    height: 40px;
-    flex-grow: 0;
-    border-radius: 8px;
-    border: solid 1px #c8cbd2;
-    background-color: #fff;
-  }
-  label {
-    display: flex;
-    width: 400px;
-    height: 27px;
-    padding: 0 10px 5px 0;
-    font-family: Nunito;
-    font-size: 16px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #25282b;
-  }
-  /* Style inputs with type="text", select elements and textareas */
-  input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    font-family: Nunito;
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=send] {
-    background-color: #fdc435;
-    width: 50px;
-    height: 26px;
-    margin: 0 0 0 290px;
-    font-family: Nunito;
-    text-align: center;
-    font-weight: 600;
-    color: rgb(37, 36, 36);
-    padding: 5px 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    bottom: 140px;
-  }
   
     footer {
       display: flex;
@@ -989,9 +988,9 @@ height: 100px;
   }
   .email {
     width: 121px;
-  height: 50px;
+  height: 55px;
   padding-bottom: 10px;
-  margin: 32.5px 452px 95px 266px;
+  padding-top: 25px;
   font-family: Nunito;
   font-size: 20px;
   font-weight: normal;
@@ -1001,12 +1000,12 @@ height: 100px;
   letter-spacing: normal;
   text-align: left;
   color: #1f1f1f;
+    padding-left: 40px;
   }
   .location {
     width: 180px;
-    height: 27px;
-    position: absolute;
-    padding: 30px 452px 85px 266px;
+    height: 50px;
+    display: flex;
     font-family: Nunito;
     font-size: 20px;
     font-weight: normal;
@@ -1016,12 +1015,13 @@ height: 100px;
     letter-spacing: normal;
     text-align: left;
     color: #1f1f1f;
+    padding-top: 25px;
+    padding-left:40px;
   }
   .phone {
     width: 153px;
-    height: 27px;
-    position: absolute;
-    padding: 90px 452px 85px 266px;
+    height: 60px;
+    display: flex;
     font-family: Nunito;
     font-size: 20px;
     font-weight: normal;
@@ -1031,10 +1031,15 @@ height: 100px;
     letter-spacing: normal;
     text-align: left;
     color: #1f1f1f;
+    padding-left: 40px;
+    padding-top: 10px;
   }
-  .contactIcons {
-    margin: -27px 0px 60px 210px;
+ .contactIcons {
+    display: flex;
+    position: absolute;
+    padding: 129px 0px 0px 0px;
   }
+
 
   .social {
     display: flex;
