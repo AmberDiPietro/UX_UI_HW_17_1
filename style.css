@@ -274,13 +274,27 @@ display: flex;
   }
   .yellowRectangle {
     display: flex;
-    width: 450px;
-    height: 240px;
+    width: 500px;
+    height: 505px;
     border-radius: 0px 20px 20px 0px;
-    padding: 133px 38.9px 132px 50.4px;
+    padding: 0px 20px 0px 20px;
     background-color: rgba(255, 199, 0, 0.38);
   }
-  
+  .diyimage1 {
+  width: 224px;
+  position: absolute;
+  height: 432px;
+  flex-grow: 0;
+  padding: 15px 18px 12px 45px;
+  }
+
+  .diyimage2 {
+    width: 224px;
+    height: 432px;
+    flex-grow: 0;
+    margin: 50px 0px 36px 40px;
+    padding: 13px 0px 12px 180px;
+  }
   .mydiyText {
     width: 406.7px;
     height: 259px;
