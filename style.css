@@ -159,6 +159,7 @@ display: flex;
     align-items: flex-start;
     gap: 12px;
     
+    
   }
   .button-primary {
     width: 110px;
@@ -172,6 +173,7 @@ display: flex;
     padding: 8px 24px;
     border-radius: 8px;
     background-color: #070055;
+    cursor: pointer;
   }
   
   .button-secondary {
@@ -186,6 +188,7 @@ display: flex;
     padding: 8px 24px;
     border-radius: 8px;
     border: solid 2px #070055;
+    cursor: pointer;
   }
     .linkedIn {
     width: 46px;
@@ -345,6 +348,7 @@ display: flex;
     background-color: #fff;
     border-radius: 24px;
     border: solid 1px #070055;
+    cursor: pointer;
   }
   .diyButton {
     width: 102px;
@@ -359,6 +363,7 @@ display: flex;
     letter-spacing: normal;
     text-align: left;
     color: #070055;
+    cursor: pointer;
   }
  
   /*------------project2-----------*/
@@ -408,6 +413,7 @@ display: flex;
     letter-spacing: normal;
     text-align: left;
     color: #070055;
+    cursor: pointer;
   }
   .blueRectangle {
     display: flex;
@@ -1066,4 +1072,12 @@ height: 100px;
   flex-grow: 0;
   display: flex;
   justify-content: center;
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .Amber-DiPietro {
+      margin-left: auto;
+    }
+    
   }
