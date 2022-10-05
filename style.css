@@ -185,7 +185,7 @@ display: flex;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 8px 24px;
+    padding: 8px 22px;
     border-radius: 8px;
     border: solid 2px #070055;
     cursor: pointer;
@@ -338,7 +338,7 @@ display: flex;
     color: #1f1f1f;
   }
   button {
-    width: 150px;
+    width: 145px;
     height: 43px;
     flex-grow: 0;
     display: flex;
@@ -352,7 +352,7 @@ display: flex;
     cursor: pointer;
   }
   .diyButton {
-    width: 102px;
+    width: 150px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -1303,18 +1303,20 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 .grants
 {
-    
+  display: flex;
+  align-self: flex-start;  
   width: 148px;
   height: 360px;
   flex-grow: 0;
-  margin: 0px 0px 0px 125px;
+  margin: 0px 0px 0px 110px;
   
 }
 .grants2 {
+  position: absolute;
   width: 214px;
   height: 342px;
   flex-grow: 0;
-  margin: 15px 157px 0px 0px;
+  margin: 15px 100px 0px -78px;
 }
 .headerImage {
   display: none;
