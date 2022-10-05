@@ -419,7 +419,7 @@ display: flex;
   .blueRectangle {
     display: flex;
     float: right;
-    width: 100%;
+    width: 500px;
     height: 505px;
     border-radius: 20px 0px 0px 20px;
     padding: 0px 20px 0px 20px;
@@ -1424,8 +1424,8 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
     }
     .carousel__face { 
       position: absolute;
-      width: 130px;
-      height: 130px;
+      width: 140px;
+      height: 140px;
       top: 30px;
       left: 0px;
       right: 0px;
@@ -1435,27 +1435,26 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
     
     .carousel__face:nth-child(1) {
       background-image: url("Throat.png");
-      transform: rotateY(  0deg) translateZ(190px); }
+      transform: rotateY(  0deg) translateZ(160px); }
     .carousel__face:nth-child(2) { 
       background-image: url("Dream\ Catcher.png");
-        transform: rotateY( 50deg) translateZ(190px); }
+        transform: rotateY( 60deg) translateZ(160px); }
     .carousel__face:nth-child(3) {
       display: none; }
     .carousel__face:nth-child(4) {
       background-image: url("Understand.png");
-      transform: rotateY(100deg) translateZ(190px); }
+      transform: rotateY(120deg) translateZ(160px); }
     .carousel__face:nth-child(5) { 
       background-image: url("Muladhara.png");
-     transform: rotateY(150deg) translateZ(190px); }
+     transform: rotateY(180deg) translateZ(160px); }
     .carousel__face:nth-child(6) { 
-      background-image: url("Wishes\ &.png");
-     transform: rotateY(200deg) translateZ(190px); }
+      display: none; }
     .carousel__face:nth-child(7) { 
       background-image: url("Love\,\ Sex\ &\ Magick.png");
-     transform: rotateY(250deg) translateZ(190px); }
+     transform: rotateY(240deg) translateZ(160px); }
     .carousel__face:nth-child(8) {
       background-image: url("Banish\ &\ Protect.png");
-      transform: rotateY(300deg) translateZ(190px); }
+      transform: rotateY(300deg) translateZ(160px); }
     .carousel__face:nth-child(9) {
       display: none; }
       
