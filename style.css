@@ -487,6 +487,8 @@ display: flex;
     letter-spacing: normal;
     text-align: left;
     color: #070055;
+    transition: 4s ease-in-out 1s;
+    
   }
   
   .orangeRectangle {
@@ -1291,7 +1293,7 @@ padding-top: 170px;
 .box1 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   margin: 0px 0px 25px 0px;
   height: 360px;
@@ -1304,19 +1306,23 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 .grants
 {
   display: flex;
-  align-self: flex-start;  
+  align-self: flex-end;  
+  justify-content: flex-end;
   width: 148px;
   height: 360px;
   flex-grow: 0;
-  margin: 0px 0px 0px 110px;
+  margin: 0px 0px 0px 0px;
+  padding-left: 220px;
   
 }
 .grants2 {
-  position: absolute;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
   width: 214px;
   height: 342px;
   flex-grow: 0;
-  margin: 15px 100px 0px -78px;
+  margin: 0px 0px 0px 0px;
 }
 .headerImage {
   display: none;
