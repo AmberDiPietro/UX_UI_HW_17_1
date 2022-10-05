@@ -419,7 +419,7 @@ display: flex;
   .blueRectangle {
     display: flex;
     float: right;
-    width: 500px;
+    width: 100%;
     height: 505px;
     border-radius: 20px 0px 0px 20px;
     padding: 0px 20px 0px 20px;
@@ -1292,9 +1292,8 @@ padding-top: 170px;
 }
 .box1 {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content: center;
+  flex-direction: column;
+  
   margin: 0px 0px 25px 0px;
   height: 360px;
   width: 370px;
@@ -1312,17 +1311,16 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
   height: 360px;
   flex-grow: 0;
   margin: 0px 0px 0px 0px;
-  padding-left: 220px;
+  
   
 }
 .grants2 {
   display: flex;
-  align-self: flex-end;
-  justify-content: flex-end;
+  align-self: flex-start;
   width: 214px;
   height: 342px;
   flex-grow: 0;
-  margin: 0px 0px 0px 0px;
+  margin: 16px 0px 0px 0px;
 }
 .headerImage {
   display: none;
