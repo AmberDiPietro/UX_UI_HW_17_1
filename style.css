@@ -352,7 +352,7 @@ display: flex;
     cursor: pointer;
   }
   .diyButton {
-    width: 150px;
+    width: 102px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -402,7 +402,7 @@ display: flex;
     color: #1f1f1f;
   }
   .trButton {
-    width: 150px;
+    width: 102px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -475,7 +475,7 @@ display: flex;
     color: #1f1f1f;
   }
   .doeButton {
-    width: 150px;
+    width: 102px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -1307,7 +1307,8 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
   width: 148px;
   height: 360px;
   flex-grow: 0;
-  margin: 0px 0px 0px 115px;
+  margin: 0px 0px 0px 125px;
+  
 }
 .grants2 {
   width: 214px;
@@ -1645,13 +1646,13 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
       color: #1f1f1f;
     }
     button {
-      width: 150px;
+      width: 160px;
       height: 43px;
       flex-grow: 0;
       display: flex;
       margin: 20px;
-      justify-content: center;
-      text-align: center;
+      justify-content: flex-start;
+      text-align: flex-start;
       align-items: center;
       background-color: #fff;
       border-radius: 24px;
