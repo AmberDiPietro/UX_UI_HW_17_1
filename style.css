@@ -352,7 +352,7 @@ display: flex;
     cursor: pointer;
   }
   .diyButton {
-    width: 102px;
+    width: 150px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -402,7 +402,7 @@ display: flex;
     color: #1f1f1f;
   }
   .trButton {
-    width: 102px;
+    width: 150px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
@@ -475,7 +475,7 @@ display: flex;
     color: #1f1f1f;
   }
   .doeButton {
-    width: 102px;
+    width: 150px;
     height: 27px;
     flex-grow: 0;
     font-family: 'Nunito Sans', sans-serif;
