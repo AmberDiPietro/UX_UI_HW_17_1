@@ -895,6 +895,7 @@ display: flex;
   }
   form
   {
+    position: relative;
     float: left;
     width: 400px;
     margin: -400px 0px 0px 650px;
