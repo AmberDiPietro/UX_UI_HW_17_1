@@ -192,6 +192,7 @@ display: flex;
     cursor: pointer;
   }
     .linkedIn {
+      display: flex;
     width: 46px;
     height: 30px;
     flex-grow: 0;
@@ -1299,6 +1300,20 @@ padding-top: 50px;
 background-color: #e1e0e0;
 box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
+.grants
+{
+    position: absolute;
+  width: 148px;
+  height: 360px;
+  flex-grow: 0;
+  margin: 0px 0px 0px 115px;
+}
+.grants2 {
+  width: 214px;
+  height: 342px;
+  flex-grow: 0;
+  margin: 15px 157px 0px 0px;
+}
 .headerImage {
   display: none;
 }
@@ -1414,28 +1429,26 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
       transform: rotateY(  0deg) translateZ(190px); }
     .carousel__face:nth-child(2) { 
       background-image: url("Dream\ Catcher.png");
-        transform: rotateY( 40deg) translateZ(190px); }
+        transform: rotateY( 50deg) translateZ(190px); }
     .carousel__face:nth-child(3) {
-      background-image: url("Protection.png");
-      transform: rotateY( 80deg) translateZ(190px); }
+      display: none; }
     .carousel__face:nth-child(4) {
       background-image: url("Understand.png");
-      transform: rotateY(120deg) translateZ(190px); }
+      transform: rotateY(100deg) translateZ(190px); }
     .carousel__face:nth-child(5) { 
       background-image: url("Muladhara.png");
-     transform: rotateY(160deg) translateZ(190px); }
+     transform: rotateY(150deg) translateZ(190px); }
     .carousel__face:nth-child(6) { 
       background-image: url("Wishes\ &.png");
      transform: rotateY(200deg) translateZ(190px); }
     .carousel__face:nth-child(7) { 
       background-image: url("Love\,\ Sex\ &\ Magick.png");
-     transform: rotateY(240deg) translateZ(190px); }
+     transform: rotateY(250deg) translateZ(190px); }
     .carousel__face:nth-child(8) {
       background-image: url("Banish\ &\ Protect.png");
-      transform: rotateY(280deg) translateZ(190px); }
+      transform: rotateY(300deg) translateZ(190px); }
     .carousel__face:nth-child(9) {
-      background-image: url("Finding.png");
-      transform: rotateY(320deg) translateZ(190px); }
+      display: none; }
       
        
     @keyframes rotate360 {
@@ -1637,13 +1650,57 @@ box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
       margin: 20px;
       flex-direction: row;
       justify-content: flex-start;
+      text-align: center;
       align-items: flex-start;
       padding: 8px 24px;
       background-color: #fff;
       border-radius: 24px;
       border: solid 2px #070055;
+    }
+    .doeButton {
+      width: 100%;
+      height: 27px;
+      flex-grow: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #070055;
+    }
+    .diyButton {
+      width: 100%;
+      height: 27px;
+      flex-grow: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #070055;
       cursor: pointer;
     }
-    
+    .trButton {
+      width: 102px;
+      height: 27px;
+      flex-grow: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #070055;
+      cursor: pointer;
+    }
+   
    
   }
